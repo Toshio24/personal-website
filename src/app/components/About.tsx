@@ -29,6 +29,8 @@ export function About() {
               src={headshotImg}
               alt="Toshio Nagai"
               className="w-full h-[300px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to top right, rgba(234, 179, 8, 0.08), transparent)' }}></div>
           </div>
@@ -123,6 +125,8 @@ export function About() {
               src={headshotImg}
               alt="Toshio Nagai"
               className="w-full h-[600px] object-cover"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0" style={{ background: 'linear-gradient(to top right, rgba(234, 179, 8, 0.08), transparent)' }}></div>
           </div>

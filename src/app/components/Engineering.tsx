@@ -136,7 +136,7 @@ export function Engineering() {
               {/* Icon + Date/Role */}
               <div className="flex items-center gap-3 mb-4">
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden ${project.title === 'USC MEDesign - HCC Tumor Detection' ? 'p-1.5' : ''}`} style={{ backgroundColor: '#FFFFFF' }}>
-                  {project.iconType === 'image' ? <img src={project.icon} alt={project.title} className="w-full h-full object-contain" /> : <project.icon size={22} className="text-white" />}
+                  {project.iconType === 'image' ? <img src={project.icon} alt={project.title} className="w-full h-full object-contain" loading="lazy" decoding="async" /> : <project.icon size={22} className="text-white" />}
                 </div>
                 <div className="flex flex-col justify-center min-h-[48px]">
                   <p className="text-xs font-medium leading-tight" style={{ color: '#A8A29E' }}>{project.date}</p>

@@ -136,7 +136,7 @@ export function Research() {
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden p-2" style={{ backgroundColor: '#FFFFFF' }}>
                   {project.icon ? (
-                    <img src={project.icon} alt={project.organization} className="w-full h-full object-contain" />
+                    <img src={project.icon} alt={project.organization} className="w-full h-full object-contain" loading="lazy" decoding="async" />
                   ) : (
                     <span className="text-xs font-bold text-center" style={{ color: '#990000' }}>USC</span>
                   )}

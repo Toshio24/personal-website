@@ -181,7 +181,7 @@ export function WebDevelopment() {
               <div className="flex items-center gap-3 mb-4">
                 <div className={`w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden ${project.title === 'Bubble AI' ? 'p-0' : project.title === 'MEDesign Website Redesign' || project.title === 'Pando Surgical' ? 'p-1.5' : ''}`} style={{ backgroundColor: '#FFFFFF' }}>
                   {project.iconType === 'image' ? (
-                    <img src={project.icon} alt={`${project.title} Icon`} className={`${project.title === 'Bubble AI' ? 'w-full h-full object-cover' : 'w-full h-full object-contain'}`} />
+                    <img src={project.icon} alt={`${project.title} Icon`} className={`${project.title === 'Bubble AI' ? 'w-full h-full object-cover' : 'w-full h-full object-contain'}`} loading="lazy" decoding="async" />
                   ) : (
                     <project.icon size={22} className="text-white" />
                   )}
