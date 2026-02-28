@@ -4,7 +4,6 @@ import { useRef, useState } from 'react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { FlaskConical, ExternalLink, ChevronDown } from 'lucide-react';
 import queensLogo from 'figma:asset/8103a344938c88f49651afea2858af268429ed0f.png';
-import uscLogo from 'figma:asset/d1010458e1926df6e98ac32a6515161fe2a15e17.png';
 import hccResearchImage from 'figma:asset/9463ab60b08feb426abf6b1d318440354efb5800.png';
 import madLabImage from 'figma:asset/c27565fdfc63f962bf01a291c5f986b10ad57adc.png';
 
@@ -32,7 +31,7 @@ const researchProjects = [
     tags: ['Medical Devices', 'Sensor Fabrication', 'Data Analysis', 'CAD Modeling'],
     date: 'Sep 2025 - Present',
     metrics: ['Device Development', 'Data Analysis', 'Sensor Fabrication'],
-    icon: uscLogo,
+    icon: null,
     link: 'https://madlab.usc.edu/',
     linkText: 'Visit Lab Website'
   }
@@ -136,7 +135,11 @@ export function Research() {
               {/* Icon + Date/Role */}
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden p-2" style={{ backgroundColor: '#FFFFFF' }}>
-                  <img src={project.icon} alt={project.organization} className="w-full h-full object-contain" />
+                  {project.icon ? (
+                    <img src={project.icon} alt={project.organization} className="w-full h-full object-contain" />
+                  ) : (
+                    <span className="text-xs font-bold text-center" style={{ color: '#990000' }}>USC</span>
+                  )}
                 </div>
                 <div className="flex flex-col justify-center min-h-[64px]">
                   <p className="text-xs font-medium leading-tight" style={{ color: '#A8A29E' }}>{project.date}</p>

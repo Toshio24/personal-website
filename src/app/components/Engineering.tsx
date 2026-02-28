@@ -19,7 +19,8 @@ const engineeringProjects = [
     date: 'Oct 2023 - Jun 2025',
     impact: ['10+ Student Team', 'Hawaiian Partnership', 'Parkinson\'s Patients'],
     icon: designAidIcon,
-    iconType: 'image'
+    iconType: 'image' as const,
+    link: null as string | null
   },
   {
     title: 'USC MEDesign - HCC Tumor Detection',
@@ -31,7 +32,8 @@ const engineeringProjects = [
     date: 'Sep 2025 - Present',
     impact: ['AI Detection', 'Diagnostics', 'Clinical Collaboration'],
     icon: medesignIcon,
-    iconType: 'image'
+    iconType: 'image' as const,
+    link: null as string | null
   }
 ];
 
