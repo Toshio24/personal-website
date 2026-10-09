@@ -8,7 +8,7 @@ import pandoIcon from 'figma:asset/0e9e809d2ff9459336deb4e92a3686fb5b2fd552.png'
 import sondrIcon from 'figma:asset/91798406a28189d33fecf0c75adfc2b2bb81ede5.png';
 import poctDeviceImage from 'figma:asset/9b39c49a3efaa2ab2d1a1f1cd015228483a54dd5.png';
 import sondrDesignsImage from 'figma:asset/059d7406bb40e65f3fa8b7a9aa96c9ceb7554318.png';
-import pandoSurgicalImage from 'figma:asset/cc09bd80b4cf25c0257de54ba1612ca7f2cfbffb.png';
+import pandoSurgicalImage from 'figma:asset/pando-surgical-device.png';
 
 const startupProjects = [
   {
@@ -41,7 +41,7 @@ const startupProjects = [
     icon: pandoIcon,
     iconType: 'image',
     title: 'Pando Surgical',
-    role: 'COO',
+    role: 'Co-Founder',
     summary: 'Contributing to innovative solutions, improving laparoscopic surgery ergonomics with an attachment that enables single-handed rotation of scopes.',
     description: 'Contributing to development of innovative surgical solutions and medical device technologies. Working on product development, market research, and technical validation for next-generation surgical tools aimed at improving clinical outcomes and operational efficiency.',
     image: pandoSurgicalImage,
