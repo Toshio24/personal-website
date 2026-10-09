@@ -60,13 +60,19 @@ export function About() {
             className="text-base md:text-lg mb-4 md:mb-6 leading-relaxed"
             style={{ color: '#D4D4D8' }}
           >
-            I'm Toshi Nagai, a University of Southern California (USC) Biomedical Engineering student (Business Finance minor) focused on building practical, user-centered tools in healthcare. I've worked on an at-home multi-chronic disease monitoring device, done cancer imaging modeling using CT data to better understand tumor progression and treatment response, and been involved in various startup work. 
+            I'm Toshi Nagai, a University of Southern California (USC) Biomedical Engineering and Mechanical Engineering student (Business Finance minor) focused on building practical, user-centered tools in healthcare. I've co-founded a surgical device startup, worked on an at-home multi-chronic disease monitoring device, and done cancer imaging modeling using CT data to better understand tumor progression and treatment response.
           </motion.p>
           <motion.p
             className="text-base md:text-lg mb-4 md:mb-6 leading-relaxed"
             style={{ color: '#D4D4D8' }}
           >
-            Alongside that, I co-founded Sondr Designs, where I build premium websites to help clients sharpen their idenity in the online space and improve conversion—experience that's made me stronger at turning complex ideas into clear, deliverable products.
+            I'm a co-founder of Pando Surgical, where we build ergonomic surgical tools. We're bootstrapped, so I figure out whatever the company needs next—setting up our quality management system (QMS), working through the regulatory pathway, and doing the engineering.
+          </motion.p>
+          <motion.p
+            className="text-base md:text-lg mb-4 md:mb-6 leading-relaxed"
+            style={{ color: '#D4D4D8' }}
+          >
+            I also co-founded Sondr Designs, where I build premium websites to help clients sharpen their identity in the online space and improve conversion—experience that's made me stronger at turning complex ideas into clear, deliverable products.
           </motion.p>
           <motion.p
             className="text-base md:text-lg mb-4 md:mb-6 leading-relaxed"
